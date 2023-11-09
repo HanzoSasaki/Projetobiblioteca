@@ -27,3 +27,28 @@ O grupo será responsável por:
 
 #### Banner e Logotipo da Biblioteca
 A ideia principal é fugir da temática azul e amarela, focando em cores alegres que remetem à criatividade, como o laranja. O objetivo é utilizar tons que lembrem uma biblioteca e seus conteúdos, tornando o projeto mais dinâmico e agradável visualmente.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Parte 2 - 09/11/23 8:30 às 12:35
+
+### Front-End
+O grupo continuou programando a base e a página inicial do site 
+- 🌐 Em andamento com o design da base e na sofisticação do código do html 
+-🎨 Idealização para promover uma conscientização mais eficaz no código do css
+
+### Back-End
+Na parte 2 do projeto, o grupo iniciou as seguintes ações:
+-🔐 Sistema de login em desenvolvimento
+
+### Design
+-❌ N/A
+
+
+
+
+
+
+
+

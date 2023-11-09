@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="stayle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-</head> <body> <div class="login-container">
-     <h1>Login</h1>
-      <form> <label for="username">Username:</label>
-         <input type="text" id="username" name="username" placeholder="Email"> <label for="password">Password:</label> 
-         <input type="password" id="password" name="password" placeholder="password "required> <button type="submit">Login</button>
-         </form> <a href="signup.html">Sign up</a> </div>
-
-
-
-
-        <script src="script.js"></script>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Nome do Usuário"
+                required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="Senha" placeholder="Senha"
+                required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            
+            <div class="remenber-forgot">
+                <label><input type="checkbox">lembre-me</label>
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+            <button type="submit" class="btn">Conecte-se</button>
+            <div class="register-link">
+                <p>Não tem uma conta? <a href="#">Registrar</a></p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

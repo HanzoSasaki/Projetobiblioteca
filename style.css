@@ -1,78 +1,114 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(177, 177, 177);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    min-height: 100vh;
+    background: url(img/3309587.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.wrapper {
-    background-color: rgb(248, 248, 249);
-    width: 300px;
-    padding: 60px;
-    border: 2px solid rgb(170, 168, 168);
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10 rgba(0, 0, 0, .2);
+    color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size: 36px;
     text-align: center;
 }
 
-h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
 }
 
-form {
-    text-align: center;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-input {
-     width: 100%;
-     padding: 10px;
-     margin: 5px 0;
-     border: 1px solid #ccc;
-     border-radius: 20px;
-}
-
-.remenber {
-    font-family: Arial, sans-serif;
-    text-align: left;
-}
-button {
-    background-color: #cccccc;
-    color: white;
-    padding: 10px 30px;
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
     border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-top: 10px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px, 45px, 20px, 20px;
 }
 
-button:hover {
-    background-color: rgb(164, 165, 165)71, 72, 72;
+.input-box input, .input-box input::placeholder{
+    color: #fff;
+    padding-left: 8px;
 }
 
-.error-mensagens {
-    color: rgb(35, 34, 34);
-    margin-top: 5px;
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 20px;
 }
 
-.link {
-    text-decoration:none;
-    color: blue;
-    margin-top: 10px;
+.wrapper .remenber-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
 }
 
-.link:hover {
+.remenber-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remenber-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remenber-forgot a:hover {
     text-decoration: underline;
 }
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
 
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
 
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
 
+.register-link p a:hover {
+    text-decoration: underline;
+}
