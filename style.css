@@ -1,12 +1,13 @@
-<<<<<<< HEAD
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #0f0f0f;
 }
 
 .login-container {
     width: 500px;
     padding: 16px;
+    
     background-color: white;
     margin: 100px auto;
     box-shadow: 0px 0px 5px 0px grey;
@@ -35,15 +36,15 @@ input {
 
 button {
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #323232;
     border: none;
-    color: white;
+    color: rgb(8, 8, 8);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 }
-=======
+
 *{
     margin: 0;
     padding: 0;
@@ -55,18 +56,20 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(img/3309587.jpg) no-repeat;
+    background: url(img/b606813809d046a38f5736494244b350CYJrZmPTdV71wYcM-0.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .wrapper{
     width: 420px;
-    background: transparent;
+    background: none;
     border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(20px);
+    backdrop-filter: solid;
+    background-color: #fff;
+    border-color: #3a3a3a;
     box-shadow: 0 0 10 rgba(0, 0, 0, .2);
-    color: #fff;
+    color: #060606;
     border-radius: 10px;
     padding: 30px 40px;
 }
@@ -86,18 +89,18 @@ body{
 .input-box input {
     width: 100%;
     height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
+    background: solid;
+    border: solid;
+    outline: solid;
     border: 2px solid rgba(255, 255, 255, 2);
     border-radius: 10px;
     font-size: 16px;
-    color: #fff;
+    color: #aa4343;
     padding: 20px, 45px, 20px, 20px;
 }
 
 .input-box input, .input-box input::placeholder{
-    color: #fff;
+    color: #070707;
     padding-left: 8px;
 }
 
@@ -117,7 +120,7 @@ body{
 }
 
 .remenber-forgot label input {
-    accent-color: #fff;
+    accent-color: #050505;
     margin-right: 3px;
 }
 
@@ -142,4 +145,3 @@ body{
     color: #333;
     font-weight: 600;
 }
->>>>>>> df5b11d433d9c7212205dca6281428817549b174
