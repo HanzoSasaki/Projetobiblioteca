@@ -35,7 +35,7 @@ A ideia principal é fugir da temática azul e amarela, focando em cores alegres
 
 ### Front-End
 O grupo continuou programando a base e a página inicial do site 
-- 🌐 Em andamento com o design da base e na sofisticação do código do html 
+-🌐 Em andamento com o design da base e na sofisticação do código do html 
 -🎨 Idealização para promover uma conscientização mais eficaz no código do css
 
 ### Back-End
@@ -55,6 +55,7 @@ Na parte 2 do projeto, o grupo iniciou as seguintes ações:
 ### Back-End
 -🔐 Finalização de login
 -📚 Início da listagem de livros 
+-🌐 Criação da segunda tela com todas as informações
 
 ### Design
 -🎨 Atualização de banner e logo

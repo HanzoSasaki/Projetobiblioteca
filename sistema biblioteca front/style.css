@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+div{
+text-align: center;
+}
+mark{
+background-color: aqua;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo{
+font-size: 24px;
+text-transform: uppercase;
+letter-spacing: 4px;
+
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(43, 42, 42);
+height: 9vh;
+}
+.nav-list{
+list-style: none;
+display: flex;
+color: azure;
+}
+.nav-list li{
+letter-spacing: 3px;
+margin-left: 32px;
+
+}
+.container{
+    text-align: center;
+ 
+}
