@@ -61,7 +61,22 @@ Na parte 2 do projeto, o grupo iniciou as seguintes ações:
 -🎨 Atualização de banner e logo
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Parte 4 - 14/11/23 8:05 ás 10:30 
 
+
+### Front-End
+- 📱 Organização de imagens e colocação das funções
+
+ ### Back-End
+  -🗃️Upload de arquivos no github para que os demais integrantes do grupo possam dar início ao sistema de gestão de livros 
+  -👩‍💻Tecnologias usadas:
+  -🔒 Node.js como runtime
+  -🧠Express.js para a implementação do sistema
+  -⚡MySQL para gestão de administradores e livros
+  
+### Design
+-❌ N/A
+  
 
 
 
