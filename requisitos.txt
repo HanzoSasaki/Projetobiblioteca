@@ -1,0 +1,7 @@
+✅ Lista de exibição dos livros
+✅ Filtro por tipo de livro, autor e nome (Front end)
+✅ Sistema de admins para o controle dos livros
+
+Livros que forem apagados devem conter um campo para relatório
+? Separação por gênero dos livros
+Cadastro de prazo e quem coletou (deve ser exibido mensagens aos admins sobre isso)
